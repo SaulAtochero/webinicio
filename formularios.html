@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Formulario.jfif">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="Formularios">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li id="seleccionado">FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="form">
+                    <h1 class="txt-center">Formularios</h1>
+                    <h2>Formulario login:</h2>
+                    <form action="index.html" method="get">
+                        <input type="text" name="user" id=""  placeholder="Usuario"/><br/><br/>
+                        <input type="password" name="clave" id="" placeholder="Contraseña"><br/><br/>
+                        <input type="submit" value="Aceptar"><br/>
+                    </form>
+                    <h2>Formulario Registro:</h2>
+                    <form action="enlaces.html" method="get" class="registro">
+                        <fieldset>
+                            <legend>REGISTRO</legend>
+                        <input type="text" name="user" id="" placeholder="Usuario"/><br/><br/>
+                        <input type="password" name="clave" id="" placeholder="Contraseña"><br/><br/>
+                        
+                        <textarea name="opcional" id="" cols="30" rows="10" placeholder="*Opcional"></textarea> <br /> <br />
+                        Aficiones:<br />
+                        <input type="checkbox" name="aficiones" id="" value="cine" >Cine<br />
+                        <input type="checkbox" name="aficiones" id="" value="viajar">Viajar<br />
+                        <input type="checkbox" name="aficiones" id="" value="leer" >Leer<br />
+                        <input type="checkbox" name="aficiones" id="" value="comer">Comer<br />
+                        <br/>
+                        Sexo:<br />
+                        <input type="radio" name="sexo" id="" value="hombre" >Homber<br />
+                        <input type="radio" name="sexo" id="" value="mujer">Mujer<br />
+                        <input type="radio" name="sexo" id="" value="otro">Otro genero no identificado<br />
+                        <input type="text" name="sexo" id=""  placeholder="Introduza su genero">
+                        <br/><br/>
+                        Provincia:<br />
+                        <select name="provincia" id="">
+                            <option value="0" disabled selected>Seleccione la provincia</option>
+                            <option value="1">Albacete</option>
+                            <option value="2">Ciudad Real</option>
+                            <option value="3">Cuenca</option>
+                            <option value="4">Guadalajara</option>
+                            <option value="5">Toledo</option>
+                        </select>
+                        <br /> <br /> 
+                        Provincia:<br />
+                        <select name="provincia" id="" multiple size="5">
+                            <option value="3">Albacete</option>
+                            <option value="2">Ciudad Real</option>
+                            <option value="1">Cuenca</option>
+                            <option value="4">Guadalajara</option>
+                            <option value="5">Toledo</option>
+                        </select>
+                        <br/><br/>
+                        <input type="button" value="Pulsa" onclick="alert('hola')">
+                        <input type="submit" value="Aceptar"><br/>
+                        
+                    </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>╚&copy;═SAÚL═ATOCHERO╝</footer>
+    </div>
+</body>
+</html>

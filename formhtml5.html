@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Html5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/Formulario.jfif">
+    <script>
+        function updateTextInput(val) {
+            document.getElementById('textRango').value = val;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="formhtml5">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li id="seleccionado">FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formhtml5">
+                    <h1 class="txt-center">FORMULARIOS HTML5</h1>
+                    <form action="pagina.php" method="post" enctype="multipart/form-data">
+                        <fieldset class="fieldset">
+                            <legend>
+                                Formulario en HTML5
+                            </legend>
+                            <p><input type="url" name="url" id="" placeholder="URL"></p>
+                            <p><input type="email" name="email" id="" placeholder="EMAIL"></p>
+                            <p><input type="date" name="fecha" id=""></p>
+                            <p><input type="datetime-local" name="fechaLocal" id=""></p>
+                            <p><input type="month" name="mes" id=""></p>
+                            <p><input type="week" name="semana" id=""></p>
+                            <fieldset id="oscuro">
+                                <legend>Edad</legend>
+                                <h4>¿Cual es tu edad?</h4>
+                            <p><input type="number" name="numero" id="" min="0" max="100" step="1"></p>
+                            <h4>¿Cual es tu edad?</h4>
+                            <p>
+                                <input type="range" name="rango" id="" min="0" max="100" step="1" onchange="updateTextInput(this.value);">
+                                <input type="text" id="textRango">
+                                </p>
+                            </fieldset>
+                                <p><input type="color" name="color" id=""></p>
+                                <p><input type="file" name="ficheros" id=""></p>
+                                <p><input type="hidden" name="varOculta" value="kk"></p>
+                                <p><input type="search" name="buscar" id="" placeholder="SEARCH....."></p>
+                                <p><input type="reset" value="Limpiar"> <input type="submit" value="Enviar"></p>
+                        </fieldset>
+                    </form>
+                    <p></p>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>╚&copy;═SAÚL═ATOCHERO╝</footer>
+    </div>
+</body>
+</html>

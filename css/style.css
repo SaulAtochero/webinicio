@@ -1,0 +1,260 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(145, 233, 233);
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(228, 139, 23);
+}
+header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: rgb(16, 10, 83);
+    color: rgb(216, 213, 247);
+    text-align: center;
+    font-size: 26px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    background-color: #468caa;
+    width: 78%;
+    padding: 0 1%;
+    float: right;
+    position: relative;
+
+    
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(16, 10, 83);
+   font-weight: bold;
+   padding: 14px 0;
+   
+   border-radius: 20px;
+   border: dotted 2px rgba(35, 35, 231, 0.534);
+}
+nav ul li:hover {
+    font-size: 150%;
+    color:  rgb(255, 255, 255);
+    background-color: rgba(16, 10, 83, 0.548);
+    padding: 14px;
+    border-radius: 20px;
+    border: solid 4px rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+}
+#home {
+    background: conic-gradient(#d68023, #66afce);
+ 
+    text-align: center;
+    padding-top: 40px;
+}
+#imagen {
+    margin-left: -8%;
+}
+
+
+
+
+#parrafos{
+    background: conic-gradient(#d68023, #66afce);
+  
+    position: relative;
+ 
+
+}
+.txt-center{
+    text-align: center;
+}
+.tag{
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#seleccionado{
+    background-color: rgba(16, 10, 83, 0.548);
+}
+#ejemplodiv{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+}
+#listas h2 {
+    color: red;
+    background-color: white;
+}
+/*-----------------------------------------------*/
+.desordenadasC li{
+list-style-type: circle;
+}
+.desordenadasC ul li{
+list-style-type: square;
+}
+.desordenadasC ul ul li{
+list-style-type: disc;
+}
+/*-----------------------------------------------*/
+.ordenadasC li{
+    list-style-type: georgian;
+    }
+    .ordenadasC ol li{
+    list-style-type: upper-roman;
+    }
+    .ordenadasC ol ul li{
+    list-style-type: lower-latin;
+    }
+    /*-----------------------------------------------*/
+    .CI{
+        list-style-image: url(../img/Plato.png);
+    }
+    /*-----------------------------------------------*/
+   
+    .dl dt{
+        font-weight: bold;
+        font-family: Elephant;
+    }
+    .dl dt:hover{
+        font-weight: bold;
+        font-size: 70px;
+        font-family: Felix Titling;
+        background-color: rgb(228, 143, 32);
+        text-align: center;
+    }
+        /*-----------------------------------------------*/
+      /*---------------------------------------TABLAS--------------------------------------------------*/
+      .colorido th{
+        background-color:rgb(247, 17, 17);
+        color:white;
+      }
+      .colorido td {
+        background-color: rgb(9, 13, 26);
+        color: red;
+      }
+
+      .ParImpar tr:nth-child(even){
+        background-color: blue;
+        color :#468caa;
+      }
+      .ParImpar tr:nth-child(odd){
+        background-color: #468caa;
+        color:blue;
+      }
+
+
+      .normal{
+        background-color: white;
+        color: rgb(33, 114, 83);
+        font-weight: bold;
+      }
+      .normal h1 {
+        padding: 0;
+        margin: 0;
+      }
+      .prog{
+        background-color: yellow;
+      }
+      .lmsg{
+        background-color: rgb(42, 87, 233);
+      }
+      .ing{
+        background-color: rgb(81, 206, 81);
+      }
+      .ende{
+        background-color: rgb(216, 78, 14);
+      }
+      .bdd{
+        background-color: rgb(42, 188, 233);
+      }
+      .fol{
+        background-color: rgb(247, 86, 220);
+      }
+      .sisi{
+        background-color: rgb(40, 107, 26);
+      }
+      .recreo{
+        background-color: white;
+        color: rgb(33, 114, 83);
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 140%;
+    
+      }
+
+
+      .registro{
+        background-color: rgba(255, 255, 255, 0.658);
+        font-weight: bold;
+       
+      }
+      #form h1{
+        background-color: white;
+        color: red;
+      }
+      #form h2{
+        background-color: white;
+        color: red;
+      }
+
+
+
+      #multimedia {
+        background-image:url(../img/multimedia.jpg);
+        
+      }
+      #multimedia h1{
+        background-color: rgba(255, 0, 0, 0.363);
+        text-align: center;
+        font-weight: bold;
+        color: rgb(10, 14, 250);
+      }
+      audio{
+        background-color: black;
+        width: 100%;
+      }
+
+      #formhtml5 legend{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
+      #formhtml5 p{
+        text-align: center;
+      }
+      #formhtml5 h4{
+        text-align: center;
+      }
+      #textRango{
+        width: 40px;
+        text-align: center;
+      }
+      #formhtml5 h1{
+        background-color: white;
+        color: red;
+      }
+      .fieldset{
+        background-color: rgba(255, 255, 255, 0.658);
+        margin: 0 auto;
+        width: 75%;
+      }
+      #oscuro{
+        background-color: rgba(109, 145, 161, 0.658);
+      }
